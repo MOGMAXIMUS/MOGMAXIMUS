@@ -98,8 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         //download
         const downloadLink = document.createElement('a');
-        downloadLink.href = 'MOMA_KIT.zip';
-        downloadLink.download = 'MOMA_KIT.zip';
+        downloadLink.href = 'MOMA_KIT.ZIP';
+        downloadLink.download = 'MOMA_KIT.ZIP';
         
         if (downloadLink.href) {
             downloadLink.click();
